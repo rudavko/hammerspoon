@@ -124,7 +124,7 @@ superDuperModeNavListener = eventtap.new({ eventTypes.keyDown }, function(event)
     j = 'down',
     k = 'up',
     l = 'right',
-    v = 'delete',
+    m = 'delete',
     c = 'forwarddelete',
     g = 'return'
   }
