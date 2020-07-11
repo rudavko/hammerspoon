@@ -1,5 +1,57 @@
 hs.window.animationDuration = 0
 
+-- first quarter
+function hs.window.firstQuarter(win)
+  local f = win:frame()
+  local screen = win:screen()
+  local max = screen:frame()
+
+  f.x = max.x
+  f.y = max.y
+  f.w = max.w / 4
+  f.h = max.h
+  win:setFrame(f)
+end
+
+-- first quarter
+function hs.window.secondQuarter(win)
+  local f = win:frame()
+  local screen = win:screen()
+  local max = screen:frame()
+
+  f.x = max.x + (max.w / 4)
+  f.y = max.y
+  f.w = max.w / 4
+  f.h = max.h
+  win:setFrame(f)
+end
+
+-- first quarter
+function hs.window.thirdQuarter(win)
+  local f = win:frame()
+  local screen = win:screen()
+  local max = screen:frame()
+
+  f.x = max.x + ((max.w / 4) * 2)
+  f.y = max.y
+  f.w = max.w / 4
+  f.h = max.h
+  win:setFrame(f)
+end
+
+-- fourth quarter
+function hs.window.fourthQuarter(win)
+  local f = win:frame()
+  local screen = win:screen()
+  local max = screen:frame()
+
+  f.x = max.x + ((max.w / 4) * 3)
+  f.y = max.y
+  f.w = max.w / 4
+  f.h = max.h
+  win:setFrame(f)
+end
+
 -- +-----------------+
 -- |        |        |
 -- |  HERE  |        |
