@@ -120,12 +120,12 @@ superDuperModeNavListener = eventtap.new({ eventTypes.keyDown }, function(event)
   end
 
   local charactersToKeystrokes = {
-    h = 'left',
-    j = 'down',
-    k = 'up',
-    l = 'right',
+    j = 'left',
+    k = 'down',
+    l = 'up',
+    [';'] = 'right',
     m = 'delete',
-    c = 'forwarddelete',
+    n = 'forwarddelete',
     g = 'return'
   }
 
